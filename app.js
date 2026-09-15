@@ -2,6 +2,9 @@ function nettoyerTexte(texte) {
   return texte.replace(/[<>{}]/g, "").trim();
 }
 // ---- Variables globales ----
+function nettoyerTexte(texte) {
+  return texte.replace(/[<>{}]/g, "").trim();
+}
 let panier = [];
 
 // ---- Affichage du catalogue ----
