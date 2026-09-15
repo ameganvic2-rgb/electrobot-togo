@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+
+    <meta charset="UTF-8">
+
+    <meta name="viewport"
+          content="width=device-width, initial-scale=1.0">
+
+    <title>ElectroBot Togo</title>
+
+</head>
+
+
+  
+<body>
+
+    <!-- En-tête du site -->
+
+    <header>
+
+        <h1>⚡ ElectroBot Togo</h1>
+
+        <p>
+            Composants électroniques pour vos projets
+        </p>
+
+    </header>
+
+
+    <!-- Contenu principal -->
+
+    <main>
+
+        <!-- Recherche -->
+
+        <section>
+
+            <h2>🔎 Rechercher un composant</h2>
+
+            <input
+                type="text"
+                id="recherche"
+                placeholder="Exemple : résistance, LED..."
+            >
+
+        </section>
+
+
+        <!-- Catalogue -->
+
+        <section>
+
+            <h2>📦 Catalogue</h2>
+
+            <div id="catalogue">
+
+                <!-- Les produits seront ajoutés
+                     automatiquement avec JavaScript -->
+
+            </div>
+
+        </section>
+
+
+        <!-- Panier -->
+
+        <section>
+
+            <h2>🛒 Mon panier</h2>
+
+            <div id="panier">
+
+                <!-- Les produits sélectionnés
+                     apparaîtront ici -->
+
+            </div>
+
+            <h3>
+                Total :
+                <span id="total">0</span> FCFA
+            </h3>
+
+        </section>
+
+
+        <!-- Commande -->
+
+        <section>
+
+            <h2>📋 Passer une commande</h2>
+
+            <input
+                type="text"
+                id="nom"
+                placeholder="Votre nom"
+            >
+
+            <br><br>
+
+            <input
+                type="tel"
+                id="telephone"
+                placeholder="Votre numéro de téléphone"
+            >
+
+            <br><br>
+
+            <input
+                type="text"
+                id="adresse"
+                placeholder="Lieu de livraison"
+            >
+
+            <br><br>
+
+            <button id="commander">
+                Commander
+            </button>
+
+        </section>
+
+    </main>
+
+
+    <!-- Pied de page -->
+
+    <footer>
+
+        <p>
+            © 2026 ElectroBot Togo
+        </p>
+
+    </footer>
+
+<script src="produits.js"></script>
+<script src="app.js"></script>
+</body>
+
+</html>
