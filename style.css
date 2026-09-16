@@ -1,0 +1,166 @@
+/* ---- Base ---- */
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: 'Segoe UI', Arial, sans-serif;
+  background-color: #f4f6f8;
+  color: #222;
+  line-height: 1.6;
+  padding-bottom: 40px;
+}
+
+/* ---- En-tête ---- */
+header {
+  background-color: #1a1a2e;
+  color: white;
+  padding: 30px 20px;
+  text-align: center;
+}
+
+header h1 {
+  font-size: 2rem;
+  margin-bottom: 8px;
+}
+
+header p {
+  color: #cfd8dc;
+  font-size: 0.95rem;
+}
+
+/* ---- Sections principales ---- */
+main {
+  max-width: 500px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+section {
+  background: white;
+  border-radius: 12px;
+  padding: 20px;
+  margin-bottom: 20px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.08);
+}
+
+section h2 {
+  font-size: 1.3rem;
+  margin-bottom: 15px;
+  color: #1a1a2e;
+}
+
+/* ---- Champs de formulaire ---- */
+input {
+  width: 100%;
+  padding: 12px;
+  margin-bottom: 12px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  font-size: 1rem;
+}
+
+input:focus {
+  outline: none;
+  border-color: #1a1a2e;
+}
+
+/* ---- Boutons ---- */
+button {
+  background-color: #f7b731;
+  color: #1a1a2e;
+  border: none;
+  padding: 12px 20px;
+  border-radius: 8px;
+  font-size: 1rem;
+  font-weight: bold;
+  cursor: pointer;
+  width: 100%;
+  transition: background 0.2s;
+}
+
+button:hover {
+  background-color: #f5a623;
+}
+
+/* ---- Cartes produits ---- */
+.produit-carte {
+  border: 1px solid #eee;
+  border-radius: 10px;
+  padding: 15px;
+  margin-bottom: 12px;
+  background: #fafafa;
+}
+
+.produit-carte h3 {
+  font-size: 1.1rem;
+  margin-bottom: 5px;
+  color: #1a1a2e;
+}
+
+.produit-carte p {
+  color: #555;
+  margin-bottom: 10px;
+}
+
+.produit-carte button {
+  width: auto;
+  padding: 8px 16px;
+}
+
+/* ---- Panier ---- */
+#panier p {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 8px 0;
+  border-bottom: 1px solid #eee;
+}
+
+#panier button {
+  width: auto;
+  background: #e74c3c;
+  color: white;
+  padding: 4px 10px;
+  font-size: 0.9rem;
+}
+
+h3 {
+  margin-top: 15px;
+  font-size: 1.2rem;
+  color: #1a1a2e;
+}
+
+/* ---- Pied de page ---- */
+footer {
+  text-align: center;
+  color: #888;
+  font-size: 0.85rem;
+  margin-top: 30px;
+}
+.produit-image {
+  width: 60px;
+  height: 60px;
+  display: block;
+  margin-bottom: 10px;
+}
+
+.ligne-quantite {
+  display: flex;
+  gap: 10px;
+  align-items: center;
+}
+
+.input-quantite {
+  width: 60px;
+  padding: 8px;
+  text-align: center;
+  margin-bottom: 0;
+}
+
+.ligne-quantite button {
+  width: auto;
+  flex: 1;
+}
