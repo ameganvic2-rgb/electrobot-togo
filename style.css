@@ -163,4 +163,22 @@ footer {
 .ligne-quantite button {
   width: auto;
   flex: 1;
+}#panier-flottant {
+  position: fixed;
+  top: 15px;
+  right: 15px;
+  background-color: #f7b731;
+  color: #1a1a2e;
+  padding: 10px 16px;
+  border-radius: 30px;
+  font-weight: bold;
+  font-size: 0.95rem;
+  box-shadow: 0 3px 10px rgba(0, 0, 0, 0.25);
+  z-index: 1000;
+  cursor: pointer;
+  transition: transform 0.15s;
+}
+
+#panier-flottant:active {
+  transform: scale(0.95);
 }
