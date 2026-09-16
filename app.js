@@ -68,6 +68,7 @@ function retirerDuPanier(index) {
 function mettreAJourPanier() {
   const conteneurPanier = document.getElementById("panier");
   const totalEl = document.getElementById("total");
+  const miniTotalEl = document.getElementById("mini-total");
   conteneurPanier.innerHTML = "";
 
   let total = 0;
@@ -81,6 +82,7 @@ function mettreAJourPanier() {
   });
 
   totalEl.textContent = total;
+  miniTotalEl.textContent =total;
 }
 
 // ---- Passer la commande via WhatsApp ----
@@ -120,3 +122,6 @@ function nettoyerTexte(texte) {
 
 // ---- Affichage initial ----
 afficherProduits(produits);
+function allerAuPanier() {
+  document.getElementById("panier").scrollIntoView({ behavior: "smooth" });
+}
