@@ -1,6 +1,6 @@
 
 const produits = [
-  { id: 1, nom: "Résistance 220Ω", prix: 100, categorie: "résistance", image: "images/resistance.png" },
+  { id: 1, nom: "Résistance 220Ω", prix: 100, categorie: "résistance", image: " " },
   { id: 2, nom: "Résistance 1kΩ", prix: 100, categorie: "résistance", image: " " },
   { id: 3, nom: "Pack de 16 LED rouge jaune verte bleue ", prix: 2500, categorie: "Kit", image:" " },
   
